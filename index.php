@@ -7,10 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-<form id="wordCountForm">
-  <input type="file" name="docFile" id="docFile">
-  <button type="submit" id="wordCountBtn">Count Words</button>
+<form id="doc-form" enctype="multipart/form-data">
+  <input type="file" name="doc-file">
+  <input type="submit" value="Submit">
 </form>
+<div id="word-count"></div>
 
 </body>
 <script src="script.js"></script>
